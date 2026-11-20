@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="NookNote — a reusable study planner with a digital companion. Plan less. Achieve more.">
+<title>NOOKNOTE — Plan Less. Achieve More.</title>
+<link rel="icon" href="assets/nooknote-logo.png">
+<style>
+:root{--green:#183f2b;--sage:#dfe8d7;--cream:#fbf7ed;--ink:#243128;--muted:#667268;--white:#fff;--line:#e4e8df}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(251,247,237,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:900;letter-spacing:.12em;color:var(--green);font-size:1.2rem}.brand span{font-size:1.5rem;vertical-align:-2px;margin-right:7px}
+nav{display:flex;gap:25px;align-items:center;font-size:.93rem;color:#4b594e}nav a:hover{color:var(--green)}
+.btn{display:inline-block;border:0;border-radius:999px;background:var(--green);color:white;padding:13px 22px;font-weight:750;cursor:pointer;transition:.2s}.btn:hover{transform:translateY(-2px);background:#24563a}.btn.light{background:white;color:var(--green);border:1px solid var(--line)}
+.hero{padding:70px 0 55px;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}.eyebrow{color:#54745b;font-size:.78rem;font-weight:850;letter-spacing:.17em;text-transform:uppercase}
+h1{font-size:clamp(2.7rem,5.5vw,5rem);line-height:1.02;letter-spacing:-.055em;color:var(--green);margin:16px 0 20px}.lead{font-size:1.12rem;color:var(--muted);max-width:520px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.hero-img{width:100%;border-radius:24px;box-shadow:0 22px 60px #203a251b}
+.trust{padding:20px 0 45px;color:#748075;text-align:center;font-size:.88rem}
+section{padding:76px 0}.section-head{text-align:center;max-width:650px;margin:0 auto 38px}.section-head h2{font-size:clamp(2rem,4vw,3rem);color:var(--green);line-height:1.1;letter-spacing:-.04em;margin:10px 0}.section-head p{color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;border:1px solid var(--line);padding:25px;border-radius:20px}.ico{font-size:1.8rem}.card h3{margin:10px 0 6px;color:var(--green)}.card p{color:var(--muted);margin:0}
+.soft{background:#eef2e9}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.step{padding:24px;border-radius:18px;background:#fff}.num{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--sage);color:var(--green);font-weight:900}
+.demo{max-width:760px;margin:auto;background:white;border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:0 14px 45px #203a2510}.demo form{display:flex;gap:10px;margin:18px 0}.demo input{flex:1;min-width:0;border:1px solid #d8dfd5;border-radius:12px;padding:13px;font:inherit}.suggestion{background:#f0f5eb;padding:16px;border-radius:14px;color:var(--green);min-height:55px}
+.price{max-width:420px;margin:auto;text-align:center;background:white;border:1px solid var(--line);padding:32px;border-radius:24px}.price strong{font-size:2.7rem;color:var(--green)}.price small{color:var(--muted)}
+.faq{max-width:780px;margin:auto}.faq details{padding:18px 4px;border-bottom:1px solid var(--line)}.faq summary{font-weight:750;color:var(--green);cursor:pointer}.faq p{color:var(--muted);margin-bottom:0}
+.cta{background:var(--green);color:white;border-radius:26px;padding:44px;text-align:center}.cta h2{font-size:2.3rem;margin:0 0 8px}.cta p{color:#dce8dc}.cta .btn{background:white;color:var(--green)}
+footer{padding:30px 0;color:#778176;font-size:.85rem}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:760px){nav{gap:12px;font-size:.8rem}nav a:not(.btn){display:none}.hero{grid-template-columns:1fr;padding-top:42px;gap:30px}.cards,.steps{grid-template-columns:1fr}.hero-img{max-height:430px;object-fit:cover}.demo form{flex-direction:column}.cta{padding:32px 20px}section{padding:58px 0}}
+</style></head>
+<body>
+<header><div class="wrap nav"><a class="brand" href="#"><span>⌑</span>NOOKNOTE</a><nav><a href="#features">Features</a><a href="#how">How it works</a><a href="#demo">Planner demo</a><a href="#faq">FAQ</a><a class="btn" href="#demo">Get started</a></nav></div></header>
+<main>
+<div class="wrap hero"><div><div class="eyebrow">A calmer way to study</div><h1>Make room for what matters.</h1><p class="lead">Meet NookNote: a reusable study planner with a simple digital companion to help you organise tasks, keep track of goals and make each study session count.</p><div class="actions"><a class="btn" href="#demo">Try the planner demo →</a><a class="btn light" href="#features">Explore features</a></div></div><img class="hero-img" src="assets/launch-poster.png" alt="NookNote reusable planner and digital companion launch poster"></div>
+<div class="wrap trust">Designed around real student routines · Simple · Flexible · Student-friendly</div>
+<section id="features"><div class="wrap"><div class="section-head"><div class="eyebrow">The NookNote approach</div><h2>Everything in its place.</h2><p>A practical planning system that connects the satisfaction of writing things down with the convenience of digital organisation.</p></div><div class="cards">
+<article class="card"><div class="ico">📖</div><h3>Reusable planning</h3><p>Plan your day, week and priorities in a notebook designed to be used again and again.</p></article>
+<article class="card"><div class="ico">🔄</div><h3>Digital companion</h3><p>Keep a digital list of tasks and deadlines alongside your physical planning routine.</p></article>
+<article class="card"><div class="ico">🌱</div><h3>Progress that feels clear</h3><p>Break large goals into smaller steps and see what you have completed.</p></article>
+</div></div></section>
+<section id="how" class="soft"><div class="wrap"><div class="section-head"><div class="eyebrow">Three simple steps</div><h2>From scattered to sorted.</h2><p>Build a planning habit that fits the way you already study.</p></div><div class="steps">
+<div class="step"><div class="num">1</div><h3>Write it down</h3><p>Add subjects, deadlines and the tasks you want to finish.</p></div>
+<div class="step"><div class="num">2</div><h3>Choose your focus</h3><p>Pick one priority and turn it into a manageable study session.</p></div>
+<div class="step"><div class="num">3</div><h3>Track your progress</h3><p>Check off completed work and plan your next step.</p></div>
+</div></div></section>
+<section id="demo"><div class="wrap"><div class="section-head"><div class="eyebrow">Try a mini experience</div><h2>Your next study step.</h2><p>Enter a subject or goal to get a sample study-plan suggestion. This demo runs in your browser and does not send your information anywhere.</p></div><div class="demo"><form id="planner"><input id="topic" aria-label="Subject or study goal" placeholder="e.g. Mathematics, physics, project report" required><button class="btn" type="submit">Create a plan</button></form><div class="suggestion" id="result" aria-live="polite">Your suggested plan will appear here.</div><p style="font-size:.8rem;color:#7b867c;margin-bottom:0">Prototype note: this is a rule-based demonstration, not a live AI service.</p></div></div></section>
+<section class="soft" id="pricing"><div class="wrap"><div class="section-head"><div class="eyebrow">Simple starting point</div><h2>Start with the essentials.</h2><p>Illustrative concept pricing for this student startup project.</p></div><div class="price"><div class="eyebrow">NookNote starter kit</div><strong>₹499</strong><br><small>Proposed one-time launch price · Not currently for sale</small><p>Reusable planner concept, quick-start guide and access to the digital companion prototype.</p><a class="btn" href="#contact">Register your interest</a></div></div></section>
+<section id="faq"><div class="wrap"><div class="section-head"><div class="eyebrow">Good to know</div><h2>Frequently asked questions.</h2></div><div class="faq">
+<details><summary>What is NookNote?</summary><p>NookNote is a proposed study-planning kit combining a reusable physical planner with a digital companion concept.</p></details>
+<details><summary>Who is it for?</summary><p>It is designed for students and learners who want a clearer way to organise study tasks.</p></details>
+<details><summary>Does the demo use artificial intelligence?</summary><p>No live AI model is connected in this prototype. The sample suggestion is generated by simple browser-side rules.</p></details>
+<details><summary>Is the product available to buy?</summary><p>Not yet. The product and ₹499 price are startup concepts created for this project.</p></details>
+<details><summary>Can I use it on my phone?</summary><p>Yes. This website is responsive and adapts to mobile and laptop screens.</p></details>
+</div></div></section>
+<section id="contact"><div class="wrap"><div class="cta"><h2>Make your next move a little clearer.</h2><p>Build a study routine that gives your goals a place to live.</p><a class="btn" href="mailto:hello@nooknote.example?subject=NookNote%20interest">I'm interested</a></div></div></section>
+</main><footer><div class="wrap foot"><div><b>NOOKNOTE</b> · Plan Less. Achieve More.</div><div>Student startup concept · 2026 · Not a live commercial product</div></div></footer>
+<script>
+document.getElementById('planner').addEventListener('submit',function(e){
+ e.preventDefault();const topic=document.getElementById('topic').value.trim();
+ if(!topic)return;const safe=topic.replace(/[<>]/g,'');
+ document.getElementById('result').textContent='Suggested plan for '+safe+': 1) Spend 5 minutes listing what you already know. 2) Focus for 25 minutes on one small topic. 3) Take a 5-minute break. 4) Use 10 minutes to review and note your next step.';
+});
+</script></body></html>
